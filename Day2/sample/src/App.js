@@ -1,9 +1,12 @@
 import './Assets/css/style.css'
+import Nav from './Components/Nav'
 
+import './Assets/css/nav.css'
 function App()
 {
     return(
         <div className="sharon">
+        <Nav/>
         <form className="hari" >
                 <label>Name</label>
                 <input type="text" name="" id="name"  placeholder="UserName"/>
