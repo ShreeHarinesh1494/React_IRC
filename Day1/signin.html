@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Hello Machan</title>
+</head>
+<body>
+    <div class="suren">
+        <nav>
+            <a href="form.html">Sign Up</a>
+            <a href="signin.html">Sign In</a>
+            
+        </nav>
+    </div>
+    <div class="sharon">
+        <form class="hari" onsubmit="register()">
+                <label>Name</label>
+                <input type="text" name="" id="name"  placeholder="UserName">
+                <label>Password</label>
+                <input type="password" name="" id="pass" placeholder="Password">
+                <button>Submit</button>
+            
+        </form>
+    </div>
+   
+    <script>
+        function register()
+        {
+            let x = document.getElementById("name").value;
+            alert("Successfully signedin"+x);
+        }
+    </script>
+</body>
+</html>

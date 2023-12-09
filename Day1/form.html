@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="suren">
+        <nav>
+            <a href="form.html">Sign Up</a>
+            <a href="signin.html">Sign In</a>
+            
+        </nav>
+    </div>
+    <div class="sharon">
+        <form class="hari" onsubmit="register()">
+        
+            
+                <label>Name</label>
+                <input type="text" name="" id="name"  placeholder="UserName">
+                <label>Roll No</label>
+                <input type="text" name="" id="no"  placeholder="UserRollNo">
+                <label>Date Of Birth</label>
+                <input type="date" name="" id="dob"  placeholder="DOB">
+                <label>Password</label>
+                <input type="password" name="" id="pass" placeholder="Password">
+                <label>Confirm Password</label>
+                <input type="password" name="" id="pas" placeholder="Confirm Password">
+                <label>Phone Number</label>
+                <input type="number" name="" id="ph"  placeholder="Phone Number">
+                <label>Email</label>
+                <input type="email" name="" id="mail"  placeholder="EmailID">
+                <span><input type="radio" name="gender" id="ge" value="Male">Male
+                <input type="radio" name="gender" id="ge" value="Female">Female</span>
+                <span><input type="checkbox" name="" id=""> Accept all the Conditions </span>
+                <button>Submit</button>
+            
+        </form>
+    </div>
+    <script>
+        function register()
+        {
+            let a = document.getElementById("name").value;
+            let b = document.getElementById("no").value;
+            let c = document.getElementById("dob").value;
+            let d = document.getElementById("pass").value;
+            let cp = document.getElementById("pas").value;
+            let e = document.getElementById("ph").value;
+            let f = document.getElementById("mail").value;
+            let g = document.getElementById("ge").value;
+            if(confirm("sure ah ??"))
+            {
+                if(d==cp)
+                alert("Password Matched!")
+                // alert("Submitted !\n"+a+" \n"+b+" \n"+c+" \n"+d+" \n"+e+" \n"+f+" \n"+g)
+                else
+                alert("Password Not Matched")
+            }
+            else{
+                alert("Bye Bye da")
+            }
+        }
+    </script>
+</body>
+</html>

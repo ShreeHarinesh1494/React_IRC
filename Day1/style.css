@@ -1,0 +1,123 @@
+/* body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    background: #2980B9; 
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+    
+} */
+/* div
+{
+    height: 70vh;
+    width: 50vw;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:
+  6.6px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  22.1px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  99px 100px 80px rgba(0, 0, 0, 0.07);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    flex-direction: column;
+    gap:0.5em;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+input{
+    border-radius: 8px;
+    padding: 8px;
+    margin: 5px;
+    border-bottom: null;
+}
+
+input:focus
+{
+    border-bottom: 5px;
+    border-color: brown;
+} */
+
+.suren {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    height: 20px;
+    /* justify-content: center; */
+}
+
+
+
+.suren a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+body
+{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+form {
+    max-width: 200px;
+    height: 70vh;
+    margin: 20px ;
+    padding: 50px;
+    /* padding-top: 20px; */
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+input
+{
+    padding: 10px;
+}
+
+.sharon
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* padding-top: 05x; */
+}
+
