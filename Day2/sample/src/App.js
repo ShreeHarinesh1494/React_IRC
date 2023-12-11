@@ -1,13 +1,13 @@
 import './Assets/css/style.css'
 import Nav from './Components/Nav'
-
+import Homenav from "./Components/Homenav"
 import './Assets/css/nav.css'
 function App()
 {
     return(
         <div>
 
-            <Nav/>
+            {/* <Nav/>
             <div className="sharon">
             <form className="hari" >
                     <label>Name</label>
@@ -17,7 +17,9 @@ function App()
                     <button>Submit</button>
                 
             </form>
-            </div>
+            </div> */}
+            <Homenav/>
+
         </div>
     
     )

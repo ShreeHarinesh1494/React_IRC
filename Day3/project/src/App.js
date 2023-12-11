@@ -1,11 +1,17 @@
 import Nav from "./Components/Nav";
 import Hari from "./Components/footer";
+import HomeNav from "./Components/HomeNav";
+import HomeBody from "./Components/HomeBody";
+import HomeFooter from "./Components/HomeFooter";
 function App() {
   return (
     <div>
-      <Nav/>
+      {/* <Nav/>
       <h1>Hello World</h1>
-      <Hari/>
+      <Hari/> */}
+      <HomeNav/>
+      <HomeBody/>
+      <HomeFooter/>
     </div>
   );
 }
