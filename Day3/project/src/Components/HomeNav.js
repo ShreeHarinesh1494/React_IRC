@@ -12,7 +12,7 @@ const HomeNav = () =>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <h1>Welcome to Your Bookshop</h1>
+        <h1>Welcome to Bookshop</h1>
     </header>
         </div>
     )
