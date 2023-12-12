@@ -1,0 +1,139 @@
+/* CSS */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid #000;
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-options a {
+    text-decoration: none;
+    color: #fff; /* Set initial text color to white */
+    transition: color 0.5s ease, transform 0.3s ease;
+    border: 1px solid transparent;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+  
+  .nav-options a:hover,
+  .nav-options a.active {
+    background-color: #fff; /* Change background color to white on hover/active */
+    color: #000; /* Change text color to black on hover/active */
+    border-color: #000; /* Change border color to black on hover/active */
+    transform: scale(1.1);
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  
+  .left-corner img {
+    width: 50px;
+    border-radius: 20px;
+  }
+  
+  .content {
+    background: none;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .nav-center {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-text {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: #fff; /* Set the color you prefer */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+  }
+
+  .suren {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.suren a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+body
+{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    
+}
+
+form {
+    max-width: 400px;
+    margin: 20px ;
+    padding: 50px;
+    padding-top: 50px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+input
+{
+    padding: 10px;
+}
+
+.sharon
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}  
+  
