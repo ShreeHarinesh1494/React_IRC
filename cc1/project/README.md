@@ -69,3 +69,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+<<<<<<< HEAD
+=======
+# CC1 Review React Application (Trip Planning  Application)
+
+## Login Page
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Login%20Page.jpg">
+
+## Login Name Invalid
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Login%20Name%20Invalid.jpg">
+
+## Login Password Invalid
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Login%20Password%20Invalid.jpg">
+
+## Sign Up
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Sign%20Up.jpg">
+
+## Register Successful
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Register%20Successful.jpg">
+
+## Register Unsuccessful
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Register%20Unsuuccessful.jpg">
+
+## Home
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Home.jpg">
+
+## Trips
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Trips.jpg">
+>>>>>>> f5cbf6e5f33c69a7c4cc2fff9dd836fb3ceb95cd
