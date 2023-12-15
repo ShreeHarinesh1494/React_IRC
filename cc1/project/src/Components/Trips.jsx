@@ -1,5 +1,4 @@
 import '../Assests/css/Trips.css'
-import SearchBar from './search';
 import { Link } from 'react-router-dom';
 import img1 from '../Assests/images/coimbatore.jpg'
 import img2 from '../Assests/images/madurai.jpg'
@@ -21,6 +20,7 @@ import img17 from '../Assests/images/naga.jpg'
 import img18 from '../Assests/images/Namakkal.jpg'
 import img19 from '../Assests/images/peram.jpg'
 import img20 from '../Assests/images/salem.jpg'
+import HomeFooter from './Footer';
 const Trips=()=>
 {
     return(
@@ -93,7 +93,6 @@ const Trips=()=>
             </div>
         </div>
     </div> */}
-<SearchBar/>
 <div className="grid-container">
         <div className="grid-item">
           <img style={{ height: '230px', width: '300px' }} src={img1} alt="Coimbatore" />
@@ -241,6 +240,7 @@ const Trips=()=>
         </div>
         
       </div>
+      <HomeFooter/>
         </>
     )
 }
