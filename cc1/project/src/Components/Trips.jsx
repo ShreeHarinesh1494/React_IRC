@@ -1,4 +1,5 @@
 import '../Assests/css/Trips.css'
+import SearchBar from './search';
 import { Link } from 'react-router-dom';
 import img1 from '../Assests/images/coimbatore.jpg'
 import img2 from '../Assests/images/madurai.jpg'
@@ -92,7 +93,7 @@ const Trips=()=>
             </div>
         </div>
     </div> */}
-
+<SearchBar/>
 <div className="grid-container">
         <div className="grid-item">
           <img style={{ height: '230px', width: '300px' }} src={img1} alt="Coimbatore" />
