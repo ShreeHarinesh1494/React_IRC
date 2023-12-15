@@ -4,6 +4,7 @@ body {
     background: #000000;
     background: -webkit-linear-gradient(to right, #434343, #000000);
     background: linear-gradient(to right, #434343, #000000);
+    overflow-y: auto;
 }
 
 .navbar {
@@ -119,4 +120,28 @@ body {
 
 .flip-card-back a:hover {
     text-decoration: underline;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+    width:300px;
+    height:380px;
+    transition: 1s;
+    
+
+  }
+  .grid-item:hover{
+    transform: scale(.9);
+  }
+
+  .grid-container {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr); /* 4 columns with equal width */
+    gap: 20px; /* Gap between grid items */
 }
