@@ -112,14 +112,10 @@ body {
     padding: 20px;
 }
 
-.flip-card-back a {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.flip-card-back a:hover {
-    text-decoration: underline;
+.link
+{
+    color: #000;
+    
 }
 
 .grid-item {

@@ -13,7 +13,7 @@ const Home=()=>
         <div className="left-corner">
         </div>
         <div className="nav-options">
-            <h1>Hello TamilNadu</h1>
+            <h1>YourTrip</h1>
             <Link to="/Home">
 
                 <i className="fa fa-home"></i>
@@ -24,17 +24,26 @@ const Home=()=>
         </div>
     </nav>
 
-    <div className="left-panel">
-            <Link to="/">
+    <div class="left-panel">
+        <Link to="/Home">
+            <i class="fa fa-home"></i> Home
+        </Link>
+        
+        <Link to="/">
             <i class="fa fa-sign-out-alt"></i> Logout
-            </Link>
+        </Link>
+        <Link to="/About">
+            <i class="fa fa-info-circle"></i> About Us
+        </Link>            
     </div>
     <div className="vid">
 
-    <video autoPlay loop muted >
+    <video className='vd' autoPlay loop muted >
             <source src={vid1} type="video/mp4"/>
     </video>
+
     </div>
+    
     
         </>
     )
