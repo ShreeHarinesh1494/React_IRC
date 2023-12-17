@@ -103,14 +103,14 @@ const Trips=()=>
       the "Manchester of South India" due to its prominent position as a major industrial and
       textile hub.
         </h3>
-        <h2><Link className='link' to="/">Click Here</Link></h2>
+        <h2><Link className='link' to="/Coimbatore">Click Here</Link></h2>
         </div>
         <div className="grid-item">
           <img style={{ height: '230px', width: '300px' }} src={img2} alt="Madurai" />
           <br />
           <h1>Madurai</h1>
                     <h3>It holds great cultural, historical, and religious significance and is one of the oldest continuously inhabited cities in the world.</h3>
-                    <h2><Link className='link' to="/">Click Here</Link></h2>
+                    <h2><Link className='link' to="/Madurai">Click Here</Link></h2>
         </div>
         <div className="grid-item">
           <img style={{ height: '230px', width: '300px' }} src={img3} alt="Ooty" />
@@ -124,7 +124,7 @@ const Trips=()=>
           <br />
           <h1>kanyakumari</h1>
                     <h3> It is in the state of Tamil Nadu, India. Renowned for its spectacular geographical location, Kanyakumari is a popular tourist destination with a rich cultural.</h3>
-                    <h2><Link className='link' to="/">Click Here</Link></h2>
+                    <h2><Link className='link' to="/Kanyakumari">Click Here</Link></h2>
         </div>
         <div className="grid-item">
           <img style={{ height: '230px', width: '300px' }} src={img5} alt="Kanyakumari" />
@@ -145,7 +145,7 @@ const Trips=()=>
           <br />
           <h1>Chennai</h1>
                     <h3>Chennai, the capital city of Tamil Nadu, is a vibrant metropolis known for its diverse culture, historic landmarks such as the Marina Beach, thriving IT industry, and a rich culinary scene featuring South Indian flavors.</h3>
-                    <h2><Link className='link' to="/">Click Here</Link></h2>
+                    <h2><Link className='link' to="/Chennai">Click Here</Link></h2>
         </div>
         <div className="grid-item">
           <img style={{ height: '230px', width: '300px' }} src={img8} alt="Kanyakumari" />
