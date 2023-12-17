@@ -14,7 +14,7 @@ const Home=()=>
         </div>
         <div className="nav-options">
             <h1>YourTrip</h1>
-            <Link to="/Home">
+            <Link to="/Home1">
 
                 <i className="fa fa-home"></i>
             </Link>

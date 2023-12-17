@@ -18,10 +18,11 @@ const Coimbatore=()=>
         <Link to="/Home"><i class="fa fa-home"></i></Link>
         <Link to="/Trips"><i class="fas fa-suitcase"></i></Link>
         <Link to=""><i class="fas fa-phone"></i></Link>
+        <Link to="/Home"><i class="fa fa-dashboard"></i></Link>
         <Link to="/"><i class="fa fa-sign-out"></i></Link>
     </div>
 </nav>
-<div className='ch'>
+<div className='ha'>
 <div class="blog-card">
   <div class="meta">
     <div class="photo" style={{ backgroundImage: `url(${img1})`}}></div>

@@ -8,6 +8,7 @@ import Cbe from "./pages/Cbe";
 import Madu from "./pages/Madu";
 import Che from "./pages/Che";
 import Kanya from "./pages/Kanya";
+import Hom1 from "./pages/Home1";
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Madurai" element={<Madu/>}></Route>
         <Route path="/Chennai" element={<Che/>}></Route>
         <Route path="/KanyaKumari" element={<Kanya/>}></Route>
+        <Route path="/Home1" element={<Hom1/>}></Route>
       </Routes>
     </div>
   );

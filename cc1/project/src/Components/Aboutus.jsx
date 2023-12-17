@@ -10,12 +10,13 @@ const Aboutus=()=>
         </div>
         <div class="nav-options">
             <h1>YourTrip</h1>
-            <a href="#">
-                <i class="fa fa-home"></i>
-            </a>
-            <a href="#">
-                <i class="fas fa-suitcase"></i>
-            </a>
+            <Link to="/Home1">
+
+                <i className="fa fa-home"></i>
+            </Link>
+            <Link to="/Trips">
+                <i className="fas fa-suitcase"></i>
+            </Link>
         </div>
     </nav>
 

@@ -29,7 +29,7 @@ const Trips=()=>
         <div class="left-corner"></div>
         <div class="nav-options">
             <h1>YourTrip</h1>
-            <Link to="/Home">
+            <Link to="/Home1">
                 <i className="fas fa-home"></i>
             </Link>
             <Link to="/Trips">
@@ -38,6 +38,7 @@ const Trips=()=>
             <Link to="#">
                 <i class="fas fa-phone"></i>
             </Link>
+            <Link to="/Home"><i class="fa fa-dashboard"></i></Link>
             <Link to="/">
             <i class="fa fa-sign-out"></i>
             </Link>
