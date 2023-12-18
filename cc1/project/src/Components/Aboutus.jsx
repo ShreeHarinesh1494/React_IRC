@@ -8,8 +8,8 @@ const Aboutus=()=>
         <nav class="navbar">
         <div class="left-corner">
         </div>
-        <div class="nav-options">
-            <h1>YourTrip</h1>
+        <div class="navs-options">
+            <h1>About Us</h1>
             <Link to="/Home1">
 
                 <i className="fa fa-home"></i>

@@ -26,13 +26,13 @@ body {
     max-height: 40px; /* Adjust as needed */
 }
 
-.nav-options {
+.navs-options {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.nav-options a {
+.navs-options a {
     text-decoration: none;
     color: #fff;
     transition: color 0.5s ease, transform 0.3s ease;
@@ -41,15 +41,15 @@ body {
     border-radius: 20px;
 }
 
-.nav-options h1 {
+.navs-options h1 {
     margin: 0; /* Remove default margin for h1 */
     color: #fff;
     padding-right: 500px;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.nav-options a:hover,
-.nav-options a.active {
+.navs-options a:hover,
+.navs-options a.active {
     background-color: #000;
     color: #fff;
     border-color: #fff;
@@ -120,7 +120,7 @@ body {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 150px;
 }
 
 .container {

@@ -9,14 +9,14 @@ const Contact = () => {
         <div className="left-corner"></div>
         <div className="nav-options">
           <h1>Contact Us</h1>
-          <Link to="/Home"><i class="fa fa-home"></i></Link>
+          <Link to="/Home1"><i class="fa fa-home"></i></Link>
         <Link to="/Trips"><i class="fas fa-suitcase"></i></Link>
         <Link to="/Contact"><i class="fas fa-phone"></i></Link>
         <Link to="/Home"><i class="fa fa-dashboard"></i></Link>
         <Link to="/"><i class="fa fa-sign-out"></i></Link>
         </div>
       </nav>
-      <div class="circle-img">
+      <div class="circle-imgs">
                 <img src={img1} alt="YourTrip Image"/>
             </div>
       <div className="head">

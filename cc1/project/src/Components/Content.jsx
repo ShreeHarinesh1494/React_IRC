@@ -1,27 +1,119 @@
 import '../Assests/css/Content.css'
+import { useState,useEffect,useRef } from 'react';
 const Content = () => {
+
+  const [scrollPercentage, setScrollPercentage] = useState(0);
+  const timelineLineRef = useRef(null);
+  const timelineImageRef = useRef(null);
+
+  useEffect(() => {
+    const updateTimeline = () => {
+      const timelineTop = timelineLineRef.current.getBoundingClientRect().top;
+      const maxTimelineHeight = (document.querySelectorAll(".my-container").length - 1) * 100;
+
+      if (timelineTop <= 0) {
+        const newScrollPercentage = (-timelineTop / maxTimelineHeight) * 65;
+        const adjustedPercentage = Math.min(100, newScrollPercentage);
+        setScrollPercentage(adjustedPercentage);
+      } else {
+        setScrollPercentage(0);
+      }
+    };
+
+    document.addEventListener("scroll", updateTimeline);
+
+    return () => {
+      document.removeEventListener("scroll", updateTimeline);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (timelineLineRef.current && timelineImageRef.current) {
+      timelineLineRef.current.style.height = `${scrollPercentage}%`;
+      timelineImageRef.current.style.top = `${scrollPercentage}%`;
+    }
+  }, [scrollPercentage]);
   return (
-    <div className='con'>
-      <h1>Tamil Nadu</h1>
-      <p>
-        Tamil Naduis the
-        southernmost state of India. The tenth largest Indian state by area and
-        the sixth largest by population, Tamil Nadu is the home of the Tamil
-        people, whose Tamil language—one of the longest surviving classical
-        languages in the world—is widely spoken in the state and serves as its
-        official language. The capital and largest city is Chennai. Located on
-        the south-eastern coast of the Indian peninsula, Tamil Nadu is defined
-        by the lush Western Ghats and the semi-arid Deccan Plateau in the west,
-        the discontinuous Eastern Ghats in the north, the fertile Eastern
-        Coastal Plains lining the Bay of Bengal in the east, the Gulf of Mannar
-        and the Palk Strait to the south-east, the Laccadive Sea at the southern
-        cape of the peninsula—Kanyakumari, and the river Kaveri bisecting the
-        state. Politically, Tamil Nadu is bound by the Indian states of Kerala,
-        Karnataka, and Andhra Pradesh, and the union territory of Puducherry, as
-        well as an international maritime border with the Northern Province of
-        Sri Lanka at Pamban Island.
-      </p>
-    </div>
+    <>
+    
+    <h1 className='nb'>Discovering Tamil Nadu: A Tapestry of Heritage, Culture, and Natural Wonders</h1>
+    <div class="my-timeline">
+<div class="my-container left-container" ref={timelineLineRef}>
+  <h5>Historical Monuments</h5>
+  <div class="text-box">
+    <p>Tamil Nadu is home to several ancient temples and historical monuments. The Brihadeeswarar Temple in Thanjavur, a UNESCO World Heritage Site, is an architectural marvel and a significant tourist attraction.</p>
+  </div>
+</div>
+<div class="my-container right-container" >
+  <h5>Cultural Festivals</h5>
+  <div class="text-box">
+    <p>The state celebrates various cultural festivals with grandeur, such as Pongal, a harvest festival, and the Natyanjali Dance Festival, which showcases classical dance forms.</p>
+  </div>
+</div>
+<div class="my-container left-container" >
+  <h5>UNESCO Heritage Sites</h5>
+  <div class="text-box">
+    <p>Apart from the Brihadeeswarar Temple, the Great Living Chola Temples, which include the temples of Gangaikonda Cholapuram, Airavatesvara Temple, and Brihadeeswarar Temple, collectively form a UNESCO World Heritage Site.</p>
+  </div>
+</div>
+<div class="my-container right-container">
+  <h5>Marina Beach</h5>
+  <div class="text-box">
+    <p>Marina Beach in Chennai is one of the longest urban beaches in the world, offering a picturesque coastline and attracting both locals and tourists.</p>
+  </div>
+</div>
+<div class="my-container left-container">
+  <h5>Pilgrimage Tourism</h5>
+  <div class="text-box">
+    <p>Tamil Nadu is known for its numerous temples, each with its own unique architectural style and cultural significance. Temples like Meenakshi Amman Temple in Madurai and Ramanathaswamy Temple in Rameswaram draw pilgrims and tourists alike.</p>
+  </div>
+</div>
+<div class="my-container right-container">
+  <h5>Cultural Heritage and Arts</h5>
+  <div class="text-box">
+    <p>he state has a rich tradition of classical arts, including Bharatanatyam (classical dance) and Carnatic music. Tourists often attend performances and festivals to experience the cultural richness.</p>
+  </div>
+</div>
+<div class="my-container left-container">
+  <h5>Hill Stations</h5>
+  <div class="text-box">
+    <p> Tamil Nadu has picturesque hill stations like Ooty, Kodaikanal, and Yercaud, offering a pleasant escape from the heat and bustling city life.</p>
+  </div>
+</div>
+<div class="my-container right-container">
+  <h5>Wildlife Sanctuaries</h5>
+  <div class="text-box">
+    <p>The state is home to several wildlife sanctuaries and national parks, including Mudumalai National Park and Annamalai Wildlife Sanctuary, providing opportunities for eco-tourism and wildlife enthusiasts.</p>
+  </div>
+</div>
+<div className="timeline-line" ref={timelineLineRef}></div>
+        <img
+          className="timeline-image"
+          src="http://flagcorp.brandedbybrandemic.com/wp-content/uploads/2023/10/Frame-39652-1.svg"
+          alt=""
+          ref={timelineImageRef}
+        />
+      </div>
+
+{/* <script>
+document.addEventListener("DOMContentLoaded", function () {
+const timelineLine = document.querySelector(".timeline-line");
+const timelineImage = document.querySelector(".timeline-image");
+
+const maxTimelineHeight =
+(document.querySelectorAll(".my-container").length - 1) * 100;
+
+window.addEventListener("scroll", () => {
+const scrollPercentage = (window.scrollY / maxTimelineHeight) * 65; //Adjust the speed as needed
+
+const adjustedPercentage = Math.min(100, scrollPercentage);
+timelineLine.style.height = `${adjustedPercentage}%`;
+timelineImage.style.top = `${adjustedPercentage}%`;
+});
+});
+
+</script> */}
+    </>
   );
 };
 

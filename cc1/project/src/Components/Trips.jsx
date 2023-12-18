@@ -29,7 +29,7 @@ const Trips=()=>
         <div class="left-corner"></div>
         <div class="nav-options">
             <h1>YourTrip</h1>
-            <Link to="/Home"><i class="fa fa-home"></i></Link>
+            <Link to="/Home1"><i class="fa fa-home"></i></Link>
         <Link to="/Trips"><i class="fas fa-suitcase"></i></Link>
         <Link to="/Contact"><i class="fas fa-phone"></i></Link>
         <Link to="/Home"><i class="fa fa-dashboard"></i></Link>

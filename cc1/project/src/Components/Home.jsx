@@ -12,7 +12,7 @@ const Home=()=>
  <nav className="navbar">
         <div className="left-corner">
         </div>
-        <div className="nav-options">
+        <div className="navs-options">
             <h1>YourTrip</h1>
             <Link to="/Home1">
 

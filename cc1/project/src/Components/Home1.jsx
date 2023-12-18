@@ -2,10 +2,11 @@ import '../Assests/css/Home1.css'
 import img1 from '../Assests/images/back1.jpg'
 import HomeFooter from './Footer'
 import { Link } from 'react-router-dom'
+import Content from './Content'
 const Home1=()=>
 {
     return(
-        <>
+        <div className='hi'>
         <div className="body">
         <nav class="navbar">
         <div class="left-corner"></div>
@@ -26,8 +27,10 @@ const Home1=()=>
         </div>
     </div>
         </div>
+        <Content/>
+        <br></br>
         <HomeFooter/>
-        </>
+        </div>
     )
 }
 export default Home1
