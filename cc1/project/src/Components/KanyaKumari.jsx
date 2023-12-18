@@ -14,7 +14,7 @@ const KanyaKumari=()=>
         <h1>KanyaKumari</h1>
         <Link to="/Home"><i class="fa fa-home"></i></Link>
         <Link to="/Trips"><i class="fas fa-suitcase"></i></Link>
-        <Link to=""><i class="fas fa-phone"></i></Link>
+        <Link to="/Contact"><i class="fas fa-phone"></i></Link>
         <Link to="/Home"><i class="fa fa-dashboard"></i></Link>
         <Link to="/"><i class="fa fa-sign-out"></i></Link>
     </div>
@@ -27,7 +27,7 @@ const KanyaKumari=()=>
   <div class="description">
     <h1>Vivekananda Rock Memorial</h1>
     <h2>Spiritual landmark at the confluence of the Indian Ocean, Arabian Sea, and Bay of Bengal</h2>
-    <p>Vivekananda Rock Memorial is a monument and popular tourist attraction in Kanyakumari, India's southernmost tip.The memorial stands on one of the two rocks located about 500 meters off mainland of Vavathurai. It was built in 1970 in honour of Swami Vivekananda, who is said to have attained enlightenment on the rock.According to legends, it was on this rock that Goddess Kanyakumari (Parvathi) performed tapas in devotion of lord Shiva.</p>
+    <p>Vivekananda Rock Memorial is a monument and popular tourist attraction in Kanyakumari, India's southernmost tip.The memorial stands on one of the two rocks located about 500 meters off mainland of Vavathurai. </p>
   </div>
 </div>
 <div class="blog-card alt">

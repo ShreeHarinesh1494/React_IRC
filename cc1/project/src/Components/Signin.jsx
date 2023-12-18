@@ -2,48 +2,51 @@ import '../Assests/css/Signin.css'
 import vid1 from '../Assests/images/flag-background.mp4'
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-const Login=()=>
+import {ToastContainer} from 'react-toastify'
+import {toast} from 'react-toastify'
+function Login()
 {
     const navigate = useNavigate();
     const Signin = () => {
         let a = document.getElementById("name").value;
         let b = document.getElementById("password").value;
-        if (a !== "hari" && b !== "hari123") {
+        if (a != "hari" && b != "hari123") {
             alert("UserName and Password Invalid");
-        } else if (a !== "hari") {
+        } else if (a != "hari") {
             alert("UserName Invalid!!");
-        } else if (b !== "hari123") {
+        } else if (b != "hari123") {
             alert("Password Invalid");
         }
-        else if(a=="hari" && b=="hari123")
+        else if(a==="hari" && b==="hari123")
         {
-            navigate('/Home');
+            navigate('/Home')
         }
     };
     return(
         <>
+
               <section>
         <video autoPlay loop muted playsInline>
             <source src={vid1} type="video/mp4"/>
         </video>
-        <div class="form-box">
-            <div class="form-value">
+        <div className="form-box">
+            <div className="form-value">
                 <form onSubmit={Signin}>
                     <h2>Login</h2>
-                    <div class="inputbox">
+                    <div className="inputbox">
                         <ion-icon name="person-outline"></ion-icon>
                         <input type="text " id="name" required autoComplete="off"/>
-                        <label for="">UserName</label>
+                        <label htmlFor="">UserName</label>
                     </div>
-                    <div class="inputbox">
+                    <div className="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
                         <input type="password" id="password" required autoComplete="off"/>
-                        <label for="">Password</label>
+                        <label htmlFor="">Password</label>
                     </div>
                     <a href="#">
                         <button>Log in</button>
                       </a>
-                    <div class="register">
+                    <div className="register">
                         <p>Don't have a account <Link to="/signup">Register</Link></p>
                     </div>
                 </form>
@@ -51,11 +54,11 @@ const Login=()=>
         </div>
     </section>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     
         </>
     )
 }
 
-export default Login
+export default Login;

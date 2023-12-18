@@ -9,6 +9,7 @@ import Madu from "./pages/Madu";
 import Che from "./pages/Che";
 import Kanya from "./pages/Kanya";
 import Hom1 from "./pages/Home1";
+import Co from "./pages/Co";
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Chennai" element={<Che/>}></Route>
         <Route path="/KanyaKumari" element={<Kanya/>}></Route>
         <Route path="/Home1" element={<Hom1/>}></Route>
+        <Route path="/Contact" element={<Co/>}></Route>
       </Routes>
     </div>
   );
