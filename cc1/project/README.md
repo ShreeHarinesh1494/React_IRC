@@ -117,7 +117,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/aboutus.jpg">
 
 ## Home Screen
-
+* This is the Home Page
+* It displays some content related to TamilNad while Scrolling down
+  
 ### Home Screen 1
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/homepage_hellotn.jpg">
 
