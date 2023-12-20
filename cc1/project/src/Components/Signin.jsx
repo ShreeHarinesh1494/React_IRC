@@ -1,24 +1,23 @@
 import '../Assests/css/Signin.css'
-import vid1 from '../Assests/images/flag-background.mp4'
+import vid1 from '../Assests/images/hbg.mp4'
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import {ToastContainer} from 'react-toastify'
-import {toast} from 'react-toastify'
 function Login()
 {
     const navigate = useNavigate();
-    const Signin = () => {
+    const Signin = (e) => {
         let a = document.getElementById("name").value;
         let b = document.getElementById("password").value;
-        if (a != "hari" && b != "hari123") {
+        if (a !== "hari" && b !== "hari123") {
             alert("UserName and Password Invalid");
-        } else if (a != "hari") {
+        } else if (a !== "hari") {
             alert("UserName Invalid!!");
-        } else if (b != "hari123") {
+        } else if (b !== "hari123") {
             alert("Password Invalid");
         }
         else if(a==="hari" && b==="hari123")
         {
+            alert("Successfully Logged In")
             navigate('/Home')
         }
     };
@@ -57,6 +56,7 @@ function Login()
     <script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     
+
         </>
     )
 }
