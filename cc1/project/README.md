@@ -69,18 +69,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-<<<<<<< HEAD
-=======
+
 # CC1 Review React Application (Trip Planning  Application)
 
 ## Login Page
-<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Login%20Page.jpg">
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/lgpage.jpg">
 
 ## Login Name Invalid
-<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Login%20Name%20Invalid.jpg">
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/lgpage_nameinvalid.jpg">
 
 ## Login Password Invalid
-<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Login%20Password%20Invalid.jpg">
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/lgpage_passinvalid.jpg">
+
+## Login Successfully
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/lgpage_successfully.jpg">
 
 ## Sign Up
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Sign%20Up.jpg">
@@ -91,9 +93,65 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Register Unsuccessful
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Register%20Unsuuccessful.jpg">
 
-## Home
-<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Home.jpg">
+## Dashboard
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/dash.jpg">
 
-## Trips
-<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Trips.jpg">
->>>>>>> f5cbf6e5f33c69a7c4cc2fff9dd836fb3ceb95cd
+## About US
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/aboutus.jpg">
+
+## Home Screen 1
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/homepage_hellotn.jpg">
+
+## Home Screen 2
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/hometndescr1.jpg">
+
+## Home Screen 3
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/hometndescr2.jpg">
+
+## Home Screen 4
+<ing src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/hometndescr3.jpg">
+
+## Trips Screen 1
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage1.jpg">
+
+## Trips Screen 2
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage2.jpg">
+
+## Trips Screen 3
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage3.jpg">
+
+## Trips Screen 4
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage4.jpg">
+
+## Trips Screen 5
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage5.jpg">
+
+## Coimbatore Page 1
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe1.jpg">
+
+## Coimbatore Page 2
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe2.jpg">
+
+## Coimbatore Page 3
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe3.jpg">
+
+## Coimbatore Page 4
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe4.jpg">
+
+## Madurai Page 1
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/madurai1.jpg">
+
+## Madurai Page 2
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/maurai2.jpg">
+
+## Madurai Page 3
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/madurai3.jpg">
+
+## Madurai Page 4
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/madurai4.jpg">
+
+## Contact US
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/contactus.jpg">
+
+
+
