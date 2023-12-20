@@ -109,7 +109,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/hometndescr2.jpg">
 
 ## Home Screen 4
-<ing src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/hometndescr3.jpg">
+<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/hometndescr3.jpg">
 
 ## Trips Screen 1
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage1.jpg">
