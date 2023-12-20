@@ -73,9 +73,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # CC1 Review React Application (Trip Planning  Application)
 
 ## Login Page
-* This is the Login Page
-* Entering the Valid Login credentials the user can login
-* By entering the wrong Login credentials the user can't login
+** This is the Login Page
+*** Entering the Valid Login credentials the user can login
+* By entering the wrong Login credentials the user can't login it shows Invalid Username or Password
 ### Login Page
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/lgpage.jpg">
 
@@ -89,6 +89,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/lgpage_successfully.jpg">
 
 ## Sign Page
+* If the user does not have account the user can create account in Sign Up Page
+* If the confirm Password and Password are same then the user acccount will be successfully created
+* If the confirm Password and Password are not same then the it shows password mismatched 
 
 ### Sign Up 
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Sign%20Up.jpg">
@@ -100,7 +103,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Register%20Unsuuccessful.jpg">
 
 ### Dashboard
-
+* This is the Dashboard Page where a video plays which displays famous places in tamilnadu
+* I have a left side panel and a top navbar
+* In the left side Panel by clicking the About us Button it leads to About us Page
+* By clicking the Home in the left side panel it again leads to the main Dashboard
+* By clicking the Logout Button in the left side panel the user can Logout from the Website and it navigates to the Login Page
+* By clicking the Home icon in the Top navbar it leads to the Home Page
+* By clicking the Trips icon in the Top navbar it leads to the trip page
 ### Dashboard
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/dash.jpg">
 
@@ -122,7 +131,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/hometndescr3.jpg">
 
 ## Trip Page
-
+* This is the Trip page where all the cities are displayed
+* The user wants to select the city where he wants to travel by selecting it and clicking on the city it leads to the city Page
 ### Trips Screen 1
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage1.jpg">
 
@@ -139,7 +149,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage5.jpg">
 
 ## Coimbatore Page
-
+* This is the City Page where it displays famous places located in Coimbatore City
 ### Coimbatore Page 1
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe1.jpg">
 
@@ -153,7 +163,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe4.jpg">
 
 ## Madurai Page
-
+* This is the City Page where it displays famous places located in Madurai City
 ### Madurai Page 1
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/madurai1.jpg">
 
@@ -167,6 +177,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/madurai4.jpg">
 
 ## Contact
+* This is the Contact Page where it displays the Contact details of the Website 
 
 ### Contact US
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/contactus.jpg">
