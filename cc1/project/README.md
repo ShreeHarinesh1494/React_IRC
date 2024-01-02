@@ -70,87 +70,118 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-# CC1 Review React Application (Trip Planning  Application)
+# CC2 Review React Application (Trip Planning  Application)
 
 ## Login Page
+* This is the Login Page
+* Entering the Valid Login credentials the user can login
+* By entering the wrong Login credentials the user can't login it shows Invalid Username or Password
+### Login Page
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/lgpage.jpg">
 
-## Login Name Invalid
+### Login Name Invalid
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/lgpage_nameinvalid.jpg">
 
-## Login Password Invalid
+### Login Password Invalid
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/lgpage_passinvalid.jpg">
 
-## Login Successfully
+### Login Successfully
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/lgpage_successfully.jpg">
 
-## Sign Up
+## Sign Page
+* If the user does not have account the user can create account in Sign Up Page
+* If the confirm Password and Password are same then the user acccount will be successfully created
+* If the confirm Password and Password are not same then the it shows password mismatched 
+
+### Sign Up 
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Sign%20Up.jpg">
 
-## Register Successful
+### Register Successful
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Register%20Successful.jpg">
 
-## Register Unsuccessful
+### Register Unsuccessful
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/CC1%20Review%20Page%20Photos/Register%20Unsuuccessful.jpg">
 
-## Dashboard
+### Dashboard
+* This is the Dashboard Page where a video plays which displays famous places in tamilnadu
+* I have a left side panel and a top navbar
+* In the left side Panel by clicking the About us Button it leads to About us Page
+* By clicking the Home in the left side panel it again leads to the main Dashboard
+* By clicking the Logout Button in the left side panel the user can Logout from the Website and it navigates to the Login Page
+* By clicking the Home icon in the Top navbar it leads to the Home Page
+* By clicking the Trips icon in the Top navbar it leads to the trip page
+### Dashboard
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/dash.jpg">
 
-## About US
+### About US
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/aboutus.jpg">
 
-## Home Screen 1
+## Home Screen
+* This is the Home Page
+* It displays some content related to TamilNad while Scrolling down
+  
+### Home Screen 1
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/homepage_hellotn.jpg">
 
-## Home Screen 2
+### Home Screen 2
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/hometndescr1.jpg">
 
-## Home Screen 3
+### Home Screen 3
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/hometndescr2.jpg">
 
-## Home Screen 4
+### Home Screen 4
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/hometndescr3.jpg">
 
-## Trips Screen 1
+## Trip Page
+* This is the Trip page where all the cities are displayed
+* The user wants to select the city where he wants to travel by selecting it and clicking on the city it leads to the city Page
+### Trips Screen 1
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage1.jpg">
 
-## Trips Screen 2
+### Trips Screen 2
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage2.jpg">
 
-## Trips Screen 3
+### Trips Screen 3
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage3.jpg">
 
-## Trips Screen 4
+### Trips Screen 4
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage4.jpg">
 
-## Trips Screen 5
+### Trips Screen 5
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/trippage5.jpg">
 
-## Coimbatore Page 1
+## Coimbatore Page
+* This is the City Page where it displays famous places located in Coimbatore City
+### Coimbatore Page 1
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe1.jpg">
 
-## Coimbatore Page 2
+### Coimbatore Page 2
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe2.jpg">
 
-## Coimbatore Page 3
+### Coimbatore Page 3
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe3.jpg">
 
-## Coimbatore Page 4
+### Coimbatore Page 4
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe4.jpg">
 
-## Madurai Page 1
+## Madurai Page
+* This is the City Page where it displays famous places located in Madurai City
+### Madurai Page 1
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/madurai1.jpg">
 
-## Madurai Page 2
+### Madurai Page 2
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/maurai2.jpg">
 
-## Madurai Page 3
+### Madurai Page 3
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/madurai3.jpg">
 
-## Madurai Page 4
+### Madurai Page 4
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/madurai4.jpg">
 
-## Contact US
+## Contact
+* This is the Contact Page where it displays the Contact details of the Website 
+
+### Contact US
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/contactus.jpg">
 
 
