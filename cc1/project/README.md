@@ -162,7 +162,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe3.jpg">
 
 ### Coimbatore Page 4
-<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe4.jpg">
+<--<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/cbe4.jpg">--
 
 ## Madurai Page
 * This is the City Page where it displays famous places located in Madurai City
@@ -181,8 +181,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Contact
 * This is the Contact Page where it displays the Contact details of the Website 
 
-### Contact US
-<img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/contactus.jpg">
+
 
 
 
