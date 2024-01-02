@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    text-align: center;
+}
+
+.book-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.book {
+    perspective: 1000px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.info h3, .info p {
+    margin: 0;
+}
+
+.description {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    white-space: pre-line;
+}

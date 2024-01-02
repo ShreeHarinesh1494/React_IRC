@@ -71,7 +71,7 @@ const Content = () => {
 <div class="my-container right-container">
   <h5>Cultural Heritage and Arts</h5>
   <div class="text-box">
-    <p>he state has a rich tradition of classical arts, including Bharatanatyam (classical dance) and Carnatic music. Tourists often attend performances and festivals to experience the cultural richness.</p>
+    <p>The state has a rich tradition of classical arts, including Bharatanatyam (classical dance) and Carnatic music. Tourists often attend performances and festivals to experience the cultural richness.</p>
   </div>
 </div>
 <div class="my-container left-container">
